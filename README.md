@@ -1,6 +1,8 @@
 # lc
 "Lemme see" (lc) object inspector. Displays hierarchical listing of an object. Requires Node 4.0 or later.
 
+[![Build Status](https://travis-ci.org/iefserge/lc.svg?branch=master)](https://travis-ci.org/iefserge/lc)
+
 ### Installation
 
 ```
