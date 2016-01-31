@@ -1,0 +1,20 @@
+{
+  "name": "lc",
+  "version": "0.0.0",
+  "description": "\"Lemme see\" (lc) JavaScript object inspector",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "tape test.js && npm run lint"
+  },
+  "author": "Sergii Iefremov",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-runtime": "^1.0.0",
+    "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1"
+  }
+}
