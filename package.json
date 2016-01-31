@@ -1,6 +1,6 @@
 {
   "name": "lc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\"Lemme see\" (lc) JavaScript object inspector",
   "main": "index.js",
   "scripts": {
