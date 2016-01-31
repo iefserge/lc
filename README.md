@@ -6,7 +6,7 @@
 ### Installation
 
 ```
-npm install -g lc
+npm install lc
 ```
 
 ### Usage
@@ -20,7 +20,7 @@ const obj = {
     boolean: true,
     number: 10,
     string: 'hello world',
-    date: new Date(2005, 2, 23),
+    date: new Date(Date.UTC(2005, 2, 23)),
     regexp: /[A-Za-z0-9]+/g,
     error: new TypeError('type error message'),
     null: null,
