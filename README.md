@@ -29,27 +29,9 @@ const obj = {
 };
 
 lc(obj);
-
-/*
-[+] { ... }
-  [+] array: Array[3] { ... }
-      @ 0: 1
-      @ 1: 2
-      @ 2: 3
-    @ key: "value"
-  [+] other: { ... }
-      @ arrayBuffer: ArrayBuffer[10]
-      @ boolean: true
-      @ date: Wed Mar 23 2005 00:00:00 GMT+0200 (EET)
-      @ error: TypeError: some type error
-      @ null: null
-      @ number: 10
-      @ regexp: /[A-Za-z0-9]+/g
-      @ string: "hello world"
-      @ u8: Uint8Array[3]
-      @ undefined: undefined
-*/
 ```
+
+![](https://raw.githubusercontent.com/iefserge/lc/master/img/s1.png)
 
 ### License
 
