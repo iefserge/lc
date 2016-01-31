@@ -173,7 +173,7 @@ function recursive(context, value, level) {
   }
 
   if (isDate(value)) {
-    log(Date.prototype.toString.call(value));
+    log(Date.prototype.toUTCString.call(value));
     return;
   }
 

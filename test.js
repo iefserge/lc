@@ -10,7 +10,7 @@ test('basic', t => {
       boolean: true,
       number: 10,
       string: 'hello world',
-      date: new Date(2005, 2, 23),
+      date: new Date(Date.UTC(2005, 2, 23)),
       regexp: /[A-Za-z0-9]+/g,
       error: new TypeError('type error message'),
       null: null,
@@ -30,7 +30,7 @@ test('basic', t => {
   [+] other: { ... }
       @ arrayBuffer: ArrayBuffer[10]
       @ boolean: true
-      @ date: Wed Mar 23 2005 00:00:00 GMT+0200 (EET)
+      @ date: Wed, 23 Mar 2005 00:00:00 GMT
       @ error: TypeError: type error message
       @ null: null
       @ number: 10
